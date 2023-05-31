@@ -92,7 +92,7 @@
 
                     // Memulai pemutaran media eksternal
                     var externalPlayer = document.createElement('iframe');
-                    externalPlayer.src = '//stream.cctv.malangkota.go.id:/WebRTCApp/play.html?name=340493797437204668929658';
+                    externalPlayer.src = '[//stream.cctv.malangkota.go.id:/WebRTCApp/play.html?name=340493797437204668929658](http://cctv.malangkota.go.id/cameras_dua)';
                     externalPlayer.width = '640';
                     externalPlayer.height = '360';
                     externalPlayer.style.marginTop = '20px';
