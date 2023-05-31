@@ -91,11 +91,10 @@
                     });
 
                     // Memulai pemutaran media eksternal
-                    var externalPlayer = document.createElement('video');
-                    externalPlayer.src = 'http://stream.cctv.malangkota.go.id/8343a3f6-e653-49a3-b915-858958e93980';
-                    externalPlayer.controls = true;
-                    externalPlayer.style.width = '100%';
-                    externalPlayer.style.maxWidth = '640px';
+                    var externalPlayer = document.createElement('iframe');
+                    externalPlayer.src = '//stream.cctv.malangkota.go.id:/WebRTCApp/play.html?name=340493797437204668929658';
+                    externalPlayer.width = '640';
+                    externalPlayer.height = '360';
                     externalPlayer.style.marginTop = '20px';
                     document.body.appendChild(externalPlayer);
                 }
